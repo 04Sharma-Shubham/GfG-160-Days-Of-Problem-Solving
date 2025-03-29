@@ -1,14 +1,66 @@
+📅 Day 1 - GFG 160 Days of Problem Solving
+
+🧠 Problem: Second Largest in an Array
+
+Difficulty: EasyTopic: Arrays
+
+📝 Problem Statement
+
+Given an array of integers, your task is to find the second largest element in the array.
+
+🔍 Example
+
+Input: arr[] = {12, 35, 1, 10, 34, 1}  
+Output: 34
+
+Input: arr[] = {10, 5, 10}  
+Output: 5
+
+🚀 Approach
+
+Initialize two variables: largest and secondLargest.
+
+Traverse the array:
+
+If current element is greater than largest, then update secondLargest = largest and largest = current.
+
+Else if current element is greater than secondLargest and not equal to largest, then update secondLargest.
+
+At the end of the traversal, secondLargest will hold the second largest value.
+
+✅ Java Solution
+
+public class SecondLargestElement {
     public int getSecondLargest(int[] arr) {
-        int largest=arr[0];
-        int secondLargest=-1;
-        for(int i=0;i<arr.length;i++){
-            if(arr[i]>largest){
-                secondLargest=largest;
-                largest=arr[i];
-            }
-            else if(arr[i]>secondLargest && arr[i]!= largest){
-                 secondLargest=arr[i];
+        int largest = arr[0];
+        int secondLargest = -1;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > largest) {
+                secondLargest = largest;
+                largest = arr[i];
+            } else if (arr[i] > secondLargest && arr[i] != largest) {
+                secondLargest = arr[i];
             }
         }
         return secondLargest;
     }
+
+    public static void main(String[] args) {
+        SecondLargestElement obj = new SecondLargestElement();
+        int[] arr = {12, 35, 1, 10, 34, 1};
+        System.out.println("Second Largest Element: " + obj.getSecondLargest(arr));
+    }
+}
+
+🧪 Output
+
+Second Largest Element: 34
+
+📚 Tags
+
+#Arrays #GFG #Java #SecondLargest #Beginner
+
+🔁 Try solving it before checking the code! Keep grinding 💪
+
+📁 Path: /Day1/SecondLargestElement.java
+
