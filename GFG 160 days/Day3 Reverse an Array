@@ -1,8 +1,61 @@
-    public void reverseArray(int arr[]) {
-        int n=arr.length;
-        for(int i=0;i<n/2;i++){
-            int temp=arr[i];
-            arr[i]=arr[n-1-i];
-            arr[n-1-i]=temp;
+📅 Day 3 - GFG 160 Days of Problem Solving
+
+🧠 Problem: Reverse an Array
+
+Difficulty: EasyTopic: Arrays
+
+📝 Problem Statement
+
+Given an array of integers, reverse the array in-place without using extra space.
+
+🔍 Example
+
+Input: arr[] = {1, 2, 3, 4, 5}  
+Output: {5, 4, 3, 2, 1}
+
+Input: arr[] = {10, 20, 30}  
+Output: {30, 20, 10}
+
+🚀 Approach
+
+Use two pointers, one at the start (i = 0) and one at the end (n-1).
+
+Swap the elements at these two positions.
+
+Move both pointers towards the center and repeat until they meet.
+
+✅ Java Solution
+
+public class ReverseArray {
+    void reverse(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n / 2; i++) {
+            int temp = arr[i];
+            arr[i] = arr[n - 1 - i];
+            arr[n - 1 - i] = temp;
         }
     }
+
+    public static void main(String[] args) {
+        ReverseArray obj = new ReverseArray();
+        int[] arr = {1, 2, 3, 4, 5};
+        obj.reverse(arr);
+        System.out.print("Reversed Array: ");
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+    }
+}
+
+🧪 Output
+
+Reversed Array: 5 4 3 2 1
+
+📚 Tags
+
+#Arrays #GFG #Java #ReverseArray #Beginner
+
+🔁 Try solving it before checking the code! Stay consistent and keep improving 💪
+
+📁 Path: /Day3/ReverseArray.java
+
