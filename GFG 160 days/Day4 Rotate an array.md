@@ -34,6 +34,10 @@ This repository contains **well-structured Java solutions** for each day's probl
 
 
 
+📄 Day-4/Solution.java
+java
+Copy
+Edit
 class Solution {
     static void rotateArr(int arr[], int d) {
         int n = arr.length;
@@ -53,7 +57,6 @@ class Solution {
         }
     }
 }
-
 
 
 
