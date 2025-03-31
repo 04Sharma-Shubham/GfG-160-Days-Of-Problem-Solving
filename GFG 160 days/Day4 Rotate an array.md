@@ -38,7 +38,8 @@ This repository contains **well-structured Java solutions** for each day's probl
 java
 Copy
 Edit
-class Solution {
+
+# class Solution {
     static void rotateArr(int arr[], int d) {
         int n = arr.length;
         d %= n;
