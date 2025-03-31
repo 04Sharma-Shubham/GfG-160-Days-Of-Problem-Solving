@@ -19,7 +19,7 @@ This repository contains **well-structured Java solutions** for each day's probl
 
 | Day  | Problem | Difficulty | Solution |
 |------|---------|------------|----------|
-| 4️⃣  | Rotate an Array | Easy | [Java](./Day-4/Solution.java) |
+| 4️⃣  | Rotate an Array | Mediun | [Java](./Day-4/Solution.java) |
 <!-- Add more as you solve -->
 
 ---
@@ -31,7 +31,6 @@ This repository contains **well-structured Java solutions** for each day's probl
 
 ---
 📢 Stay tuned for daily updates! 🔥  
-
 
 
 
@@ -54,6 +53,7 @@ class Solution {
         }
     }
 }
+
 
 
 
