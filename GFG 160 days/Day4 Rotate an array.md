@@ -33,7 +33,7 @@ This repository contains **well-structured Java solutions** for each day's probl
 📢 Stay tuned for daily updates! 🔥  
 
 
-Solution in Java ✅
+
 
 class Solution {
     static void rotateArr(int arr[], int d) {
@@ -77,6 +77,5 @@ Given an array of size `N` and an integer `D`, rotate the array to the left by `
 
 ---
 
-### 📌 Example
-#### **Input**
+
 
