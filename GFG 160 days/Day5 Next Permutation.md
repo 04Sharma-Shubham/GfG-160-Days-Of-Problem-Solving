@@ -1,15 +1,4 @@
-📁 Folder Structure
-markdown
 
-GFG-160-Days/
-├── README.md
-└── Day-5/
-    ├── Solution.java
-    └── README.md
-📄 README.md (Main Repository)
-markdown
-Copy
-Edit
 # 🚀 GFG 160 Days of DSA Challenge
 
 Welcome to my **GeeksforGeeks 160 Days Problem Solving** repository!  
@@ -48,7 +37,7 @@ This repository contains **Java solutions** for each day's problem, along with e
 java
 Copy
 Edit
-class Solution {
+# Solution 
     void nextPermutation(int[] arr) {
         int n = arr.length;
         int i = n - 2, j = n - 1;
@@ -76,7 +65,7 @@ class Solution {
             end--;
         }
     }
-}
+
 📄 Day-5/README.md
 markdown
 Copy
