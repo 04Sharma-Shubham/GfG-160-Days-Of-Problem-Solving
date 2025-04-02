@@ -1,4 +1,4 @@
-# GFG 16-Days Problem Solving Challenge
+# GFG 160-Days Problem Solving Challenge
 
 ## 📅 Day 7: Buy and Sell Stock
 
