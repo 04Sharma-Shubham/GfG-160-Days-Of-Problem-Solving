@@ -5,7 +5,7 @@ This repository contains solutions to the GeeksforGeeks 160 Days Problem Solving
 🚀 Day 8: Buy and Sell Stock - Max One Transaction Allowed
 
 Problem Statement:
-
+  
 You are given an array prices where prices[i] represents the price of a given stock on the ith day. You are allowed to complete at most one transaction (i.e., buy once and sell once). Find the maximum profit you can achieve. If no profit can be achieved, return 0.
 
 Example:
